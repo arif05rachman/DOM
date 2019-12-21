@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <title>Arif Rachman Husen</title>
+</head>
+  <body style="font-family:Verdana;color:#aaaaaa;">
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img style="background: rgb( 250, 250, 250);" class="rounded-lg" fill="currentColor" src="./assets/img/icons/code.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        arif05rachman
+      </a>
+      <form class="form-inline">
+        <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div style="text-align: center;">
+            <form>
+              <h5>Change Color</h5>
+              <div class="form-group">
+                <label for="rangeRed">R</label>
+                <input type="range" class="form-control-range" id="rangeRed" name="merah" value="255" min="0" max="255">
+                <label for="rangeGreen">G</label>
+                <input type="range" class="form-control-range" id="rangeGreen" name="hijau" value="255" min="0" max="255">
+                <label for="rangeBlue">B</label>
+                <input type="range" class="form-control-range" id="rangeBlue" name="biru" value="255" min="0" max="255">
+                <label for="rangeAlpha">A</label>
+                <input type="range" class="form-control-range" id="rangeAlpha" name="alpha" value="1" min="0" max="1" step="0.001">
+                <hr>
+                <label for="buttonRand">Random Change</label><br>
+                <button type="button" id="buttonRand">change</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-9" id="tengah">
+          <img id="img" src="./assets/img/arh.jpg" alt="hacktiv8">
+          <h3 id="arh">Biodata</h3>
+          <hr>
+          <div class="row">
+            <div class="col-6">
+              <table class="table table-borderless" id="bio">
+                <tr>
+                  <td>Name</td>
+                  <td>: Arif Rachman Husen</td>
+                </tr>
+                <tr>
+                  <td>Date Birth</td>
+                  <td>: 05 September 1993</td>
+                </tr>
+                <tr>
+                  <td>Marital Status</td>
+                  <td>: Single</td>
+                </tr>
+                <tr>
+                  <td>E-Mail</td>
+                  <td>: arif05rachman@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Phone</td>
+                  <td>: 0852-2269-6058</td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-6">
+              <p style="color: black; text-align: justify;">
+                I am a graduate of University Computer Indonesia, majoring in Informatics Engineering 
+                Faculty of Engineering and Computer Science. I am an honest person, hardworking, 
+                sociable, working individually or team.
+              </p>
+              <p style="color: black; text-align: justify;">
+                I'm doing code bootcamp on hacktiv8 in  St. Sultan Iskandar Muda No.7, RT.5/RW.9 
+                Kec. Kebayoran Lama, City South Jakarta (12240)
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- <div class="col">
+          3 of 3
+        </div> -->
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
